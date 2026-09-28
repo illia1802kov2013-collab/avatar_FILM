@@ -1,0 +1,159 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+header {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.top-text {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+.hero {
+    min-height: 390px;
+    padding: 25px 20px 35px;
+    text-align: center;
+
+    background:
+        
+        url("img/background.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.cards {
+    width: 650px;
+    max-width: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.card {
+    min-height: 90px;
+    padding: 15px 8px;
+
+    background-color: rgba(235, 245, 250, 0.82);
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.bottom-text {
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.bottom-text p {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+
+
+footer {
+    height: 150px;
+    background:
+       
+        linear-gradient(
+                rgba(40, 130, 175, 0.35),
+                rgba(20, 80, 120, 0.45)
+            ),
+        url("img/footer-background.webp");  
+}
+
+.footer-content {
+    width: 650px;
+    max-width: 90%;
+    height: 100%;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    color: #21b7d5;
+    font-weight: bold;
+}
+
+.footer-line {
+    width: 1px;
+    height: 65px;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.footer-content p {
+    font-size: 10px;
+    line-height: 17px;
+    color: #d7e5eb;
+}
+.phenics {
+    width: 300px;
+    height: auto;
+    margin-top: -500px;
+    align-items: center;
+       padding: 25px 20px 35px;
+    text-align: center;
+}
+.card-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    rotate: 180deg;
+}
+.bottom-text {
+    font-size: 21px;
+   
+    margin-top: -20px;
+}
