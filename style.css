@@ -31,7 +31,7 @@ header {
 
     background:
         
-        url("img/background.png");
+        url("i/backgroud.png");
 
     background-size: cover;
     background-position: center;
@@ -94,14 +94,14 @@ header {
 
 
 footer {
-    height: 150px;
+    height: 250px;
     background:
        
         linear-gradient(
                 rgba(40, 130, 175, 0.35),
                 rgba(20, 80, 120, 0.45)
             ),
-        url("img/footer-background.webp");  
+        url("i/footer.png");  
 }
 
 .footer-content {
@@ -133,13 +133,15 @@ footer {
     line-height: 17px;
     color: #d7e5eb;
 }
-.phenics {
-    width: 300px;
-    height: auto;
-    margin-top: -500px;
-    align-items: center;
-       padding: 25px 20px 35px;
-    text-align: center;
+.phenics{
+      width: 400px;
+    display:flex;
+    justify-content:center;
+  align-items:center;
+    margin: 0 auto;
+    margin-top: -50px;
+  
+
 }
 .card-image {
     width: 100px;
@@ -156,4 +158,9 @@ footer {
     font-size: 21px;
    
     margin-top: -20px;
+}
+.footer-text {
+  
+    color: white;
+    text-align: center;
 }
